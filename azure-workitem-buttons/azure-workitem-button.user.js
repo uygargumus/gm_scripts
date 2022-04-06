@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Completed work buttons
-// @version      1.1
+// @version      1.2
 // @description  Adds buttons to update the completed work in the work items
 // @author       Uygar Gumus (uygargumus@microsoft.com)
 // @match        https://*.visualstudio.com/*/_sprints/taskboard/*
@@ -38,7 +38,7 @@
   };
 
   GM_config.init({
-    id: "MyPrsConfig",
+    id: "WorkItemsConfig",
     fields: {
       pat: {
         label: "PAT (Personal access token)",
