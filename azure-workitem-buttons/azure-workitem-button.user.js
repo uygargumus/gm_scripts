@@ -5,8 +5,8 @@
 // @author       Uygar Gumus (uygargumus@microsoft.com)
 // @match        https://*.visualstudio.com/*/_sprints/taskboard/*
 // @require      https://openuserjs.org/src/libs/sizzle/GM_config.js
-// @updateURL    https://github.com/uygargumus/gm_scripts/raw/3952b27ecd615acbba0110668ebbc14e9ba9e23e/azure-workitem-buttons/azure-workitem-button.user.js
-// @downloadURL  https://github.com/uygargumus/gm_scripts/raw/3952b27ecd615acbba0110668ebbc14e9ba9e23e/azure-workitem-buttons/azure-workitem-button.user.js
+// @updateURL    https://github.com/uygargumus/gm_scripts/raw/mainline/azure-workitem-buttons/azure-workitem-button.user.js
+// @downloadURL  https://github.com/uygargumus/gm_scripts/raw/mainline/azure-workitem-buttons/azure-workitem-button.user.js
 // @grant        GM_registerMenuCommand
 // @grant        GM_getValue
 // @grant        GM_setValue
