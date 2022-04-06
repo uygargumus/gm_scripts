@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Completed work buttons
-// @version      1.0
+// @version      1.1
 // @description  Adds buttons to update the completed work in the work items
 // @author       Uygar Gumus (uygargumus@microsoft.com)
 // @match        https://*.visualstudio.com/*/_sprints/taskboard/*
