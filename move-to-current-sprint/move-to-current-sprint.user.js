@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name         Move to current iteration
-// @version      1.0
+// @version      1.1
 // @description  Adds buttons to update the completed work in the work items
 // @author       Uygar Gumus (uygargumus@microsoft.com)
 // @match        https://*.visualstudio.com/*/_sprints/taskboard/*
 // @require      https://openuserjs.org/src/libs/sizzle/GM_config.js
+// @updateURL    https://github.com/uygargumus/gm_scripts/raw/mainline/move-to-current-sprint/move-to-current-sprint.user.js
+// @downloadURL  https://github.com/uygargumus/gm_scripts/raw/mainline/move-to-current-sprint/move-to-current-sprint.user.js
 // @grant        GM_registerMenuCommand
 // @grant        GM_getValue
 // @grant        GM_setValue
