@@ -2,9 +2,9 @@
 // @name         PR Dashboard
 // @description  Create a PR Dashboard
 // @author       Uygar Gumus (uygargumus@microsoft.com)
-// @version      1.0
-// @updateURL    https://domoreexp.visualstudio.com/Teamspace/_apis/git/repositories/SkypeSpaces-Infra/Items?path=%2Ftools%2Ftampermonkey-scripts%2Fpr-dashboard%2Fpr-dashboard.user.js
-// @downloadURL  https://domoreexp.visualstudio.com/Teamspace/_apis/git/repositories/SkypeSpaces-Infra/Items?path=%2Ftools%2Ftampermonkey-scripts%2Fpr-dashboard%2Fpr-dashboard.user.js
+// @version      1.1
+// @updateURL    https://github.com/uygargumus/gm_scripts/raw/mainline/pr-dashboard/pr-dashboard.user.js
+// @downloadURL  https://github.com/uygargumus/gm_scripts/raw/mainline/pr-dashboard/pr-dashboard.user.js
 // @match        https://domoreexp.visualstudio.com/prs
 // @match        https://domoreexp.visualstudio.com/pr
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
