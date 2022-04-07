@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Move to current iteration
-// @version      1.1
+// @version      1.2
 // @description  Adds buttons to update the completed work in the work items
 // @author       Uygar Gumus (uygargumus@microsoft.com)
 // @match        https://*.visualstudio.com/*/_sprints/taskboard/*
@@ -152,16 +152,20 @@
           .catch((error) => console.log("error", error));
       }
 
-      var button = $("<input/>").attr({
-        type: "button",
-        value: `Move open items to the current sprint`,
-      });
-
+      var buttonDiv = $("<div/>").addClass(
+        "ms-CommandBarItem vss-PivotBar--commandBar-item"
+      );
+      var button = $("<button/>").addClass(
+        "ms-CommandBarItem-link itemLink_278ff396"
+      );
       button.click(moveAllToCurrentSprint);
+      button.append(
+        $(`<span class="ms-CommandBarItem-link">Move to Cur. Sprint</span>`)
+      );
+      buttonDiv.append(button);
 
-      $("div.ms-CommandBar-primaryCommands").append(button);
+      $("div.ms-CommandBar-primaryCommands").append(buttonDiv);
     },
     false
   );
 })();
-
